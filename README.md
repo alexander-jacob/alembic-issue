@@ -52,4 +52,5 @@ INFO  [alembic.autogenerate.compare] Detected added foreign key (customer_type_i
 
 - as you can see there is a bug with the inspection when using `public` schema.
 - maybe this is due to `public` being the default in `search_path`?
+- if I use a different schema i.e. `foo` everything works fine, see branch `schema`
 - this is possibly related to https://github.com/sqlalchemy/alembic/issues/519
