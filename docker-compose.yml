@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+
+  postgres:
+    image: postgres:13.0
+    volumes:
+      - alembic_issue_postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=postgres
+    ports:
+      - "42000:5432"
+
+volumes:
+  alembic_issue_postgres_data: {}
+
