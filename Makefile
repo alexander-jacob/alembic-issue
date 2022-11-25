@@ -1,3 +1,8 @@
-.PHONY: test
-test:
-	./bin/test.sh
+.PHONY: up
+up:
+	docker-compose up -d
+
+.PHONY: down
+down:
+	docker-compose down -v
+
