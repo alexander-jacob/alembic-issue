@@ -20,6 +20,7 @@ pip install -r requirements.txt
 ```bash
 docker-compose up -d
 ```
+> **_NOTE:_** If you are unhappy with the postgres port 42000 you need to change it in `docker-compose.yaml` and `alembic.ini` 
 
 # Steps to reproduce
 
