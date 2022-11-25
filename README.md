@@ -26,7 +26,7 @@ docker-compose up -d
 
 Upgrade the database 
 ```bash
-(venv) alex@alex:~/dje/alembic-issue$ alembic upgrade head
+(venv) alex@alex:~/alembic-issue$ alembic upgrade head
 INFO  [alembic.runtime.migration] Context impl PostgresqlImpl.
 INFO  [alembic.runtime.migration] Will assume transactional DDL.
 INFO  [alembic.runtime.migration] Running upgrade  -> da119d71d931, create-customer-type
