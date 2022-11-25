@@ -1,6 +1,6 @@
 # Alembic Issue
 
-There is an issue with foreign keys and models using `public` an explicit schema.
+There is an issue with foreign keys and models using `public` as an explicit schema.
 
 # Setup
 
