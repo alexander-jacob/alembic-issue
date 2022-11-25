@@ -2,6 +2,8 @@
 
 There is an issue with foreign keys and models using `public` as an explicit schema.
 
+https://github.com/sqlalchemy/alembic/issues/1128
+
 # Setup
 
 **Requirements**
